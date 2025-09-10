@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "moox/core": "3.1.125",
+        "moox/core": "4.0.0",
         "moox/data": "*",
         "astrotomic/laravel-translatable": "*"
     },
@@ -33,7 +33,6 @@
             ]
         }
     },
-    "minimum-stability": "stable",
     "prefer-stable": true,
     "require-dev": {
         "moox/devtools": "self.version"
