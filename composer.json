@@ -17,13 +17,15 @@
         }
     ],
     "require": {
-        "moox/core": "4.0.0",
-        "moox/data": "*",
-        "astrotomic/laravel-translatable": "*"
+        "moox/core": "5.0.0",
+        "moox/data": "5.0.0",
+        "astrotomic/laravel-translatable": "^11.16"
     },
     "autoload": {
         "psr-4": {
-            "Moox\\Localization\\": "src"
+            "Moox\\Localization\\": "src",
+            "Moox\\Localization\\Database\\Factories\\": "database/factories",
+            "Moox\\Localization\\Database\\Seeders\\": "database/seeders"
         }
     },
     "extra": {
@@ -35,7 +37,7 @@
     },
     "prefer-stable": true,
     "require-dev": {
-        "moox/devtools": "self.version"
+        "moox/devtools": "5.0.0"
     },
     "config": {
         "allow-plugins": {
